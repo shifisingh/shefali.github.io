@@ -1,0 +1,86 @@
+
+*, html {
+    margin:0;
+    padding:0;  
+
+}
+
+h1 {
+	text-align: center;
+	padding-top: 20;
+	padding-bottom: 20;
+	letter-spacing: 2;
+	color: black;
+	background-color: white;
+;
+
+
+
+
+}
+body {
+	background-color: rgb(204, 220, 255);
+	background-image: repeating-linear-gradient(45deg, transparent, transparent 8px, rgba(255,255,255,.5) 8px, rgba(255,255,255,.5) 10px);
+
+}
+
+
+
+nav ul li{
+	display: inline-block;
+	margin-left: 20;
+	margin-bottom: 20;
+	font-size: 20;
+	padding: 18;
+	background-color: white;
+
+
+
+
+
+}
+
+nav ul {
+	text-align: center;
+	margin-top: 15
+
+
+}
+
+a:link{
+  color:black;
+}
+a:visited{
+  color:black;
+}
+
+.projects-list {
+	list-style-type: none
+}
+
+.description {
+	text-align: center;
+}
+
+.title {
+	font-size: 25
+}
+
+
+.nbg {
+	margin-left: 200;
+	margin-right: 200;
+}
+
+#anim-descrip{
+	margin-bottom: 40
+
+}
+
+.grow { 
+transition: all .2s ease-in-out; 
+}
+
+.grow:hover { 
+transform: scale(1.3); 
+}
