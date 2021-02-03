@@ -1,0 +1,349 @@
+@import url("https://fonts.googleapis.com/css?family=Inconsolata:700");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #E09422;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: #09AD9D;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+ /* border: 40px solid #AD8C09;*/
+
+
+}
+
+.container {
+  max-width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  height: 100%;
+
+}
+
+ .border {
+    position: absolute;
+    border: 40px solid #AD8C09;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+
+h2 {
+  position: absolute;
+  font-family: Inconsolata, monospace;
+  font-size: 80px;
+  text-transform: uppercase;
+  width: 800px;
+  height: 300px;
+  transform: scale(var(--x, 1));
+  transform-origin: var(--o, center);
+  align-content: center;
+
+}
+
+.char {
+  --i: calc(50% / var(--char-total));
+  offset-path: path("M.4 84.1s127.4 188 267.7 0 247.3 0 247.3 0");
+  offset-distance: calc(var(--char-index) * 1.2rem);
+  position: absolute;
+  animation: move 1500ms infinite alternate forwards var(--delay, 0ms);
+}
+
+ #firstbutton {
+  font-size: 30px;
+  font-family: Inconsolata, monospace;
+  color: #E09422;
+  background-color: #E09422;
+  text-decoration: none;
+  padding: 10px;
+  position:absolute;
+  margin-top: 500px;
+  right: 0;
+   
+  }
+
+
+/* unvisited link */
+a#firstbutton:link {
+  color:  #09AD9D;
+}
+
+/* visited link */
+a#firstbutton:visited {
+  color: #09AD9D;
+}
+
+/* mouse over link */
+a#firstbutton:hover {
+  color: #E09422;
+  background: #09AD9D;
+}
+
+/* selected link */
+a#firstbutton:active {
+  color: #E09422;
+}
+
+.secondlist {
+  list-style-type: none;
+  font-family: Inconsolata, monospace;
+  font-size: 30px;
+  margin-left: 330px;
+  margin-right: 330px;
+  letter-spacing: 5;
+}
+
+.secondlist li{
+    padding-top: 30px;
+
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: #7A6F43;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color:#E09422;
+  border: 1px solid #7A6F43;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.grid-item a {
+  background-color: #E09422;
+  font-size: 30px;
+  text-align: center;
+  font-family: Inconsolata, monospace;
+  text-decoration: none;
+  color: #09AD9D;
+
+}
+
+
+#lisas-creation {
+  width:30%;
+  margin-top: 300px;
+}
+
+#second {
+height:90%;
+}
+
+
+
+/* unvisited link */
+a.grid-button:link {
+  color:  #09AD9D;
+}
+
+/* visited link */
+a.grid-button:visited {
+  color: #09AD9D;
+}
+
+/* mouse over link */
+a.grid-button:hover {
+  color: #E09422;
+  background: #09AD9D;
+}
+
+/* selected link */
+a.grid-button:active {
+  color: #E09422;
+}
+
+#second #third #fourth #seventh #ninth{
+  height: 100%;
+}
+.third-p1 {
+  width: 85%;
+  text-align: justify;
+  padding-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Inconsolata, monospace;
+  font-size: 18px;
+
+}
+
+.third-p2 {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Inconsolata, monospace;
+  font-size: 18px;
+
+}
+
+#fluteplugin {
+   border: 10px solid #AD8C09;
+   margin-left: 100px;
+}
+
+.seventh-p1 {
+ font-family: Inconsolata, monospace;
+  font-size: 30px;
+  color: #09AD9D
+  margin-left: auto;
+  margin-right: auto;  
+  text-align: center;
+
+
+}
+
+#seventh-q1 {
+  font-family: Inconsolata, monospace;
+  font-size: 28px;
+ color: #4A4329;
+   margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.seventh-q2{
+  font-family: Inconsolata, monospace;
+  font-size: 28px;
+    color: #7A6F43;
+  margin-left: auto;
+  margin-right: auto;  
+  text-align: center;
+}
+
+
+#seventh-q3 {
+  font-family: Inconsolata, monospace;
+  font-size: 28px;
+  color: #AD8C09;
+    margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.fourth-p1 {
+ font-family: Inconsolata, monospace;
+  font-size: 30px;
+  color: #09AB9B;
+  margin-left: auto;
+  margin-right: auto;  
+  text-align: center;
+}
+
+
+.fourth-p2 {
+ font-family: Inconsolata, monospace;
+  font-size: 30px;
+  color: #078578;
+  margin-left: auto;
+  margin-right: auto;  
+  text-align: center;
+}
+
+
+
+.fourth-p3 {
+ font-family: Inconsolata, monospace;
+  font-size: 30px;
+  color: #05635A;
+  margin-left: auto;
+  margin-right: auto;  
+  text-align: center;
+}
+
+
+.fourth-p4 {
+  font-family: Inconsolata, monospace;
+  font-size: 30px;
+  color:#044741; 
+  margin-left: auto;
+  margin-right: auto;  
+  text-align: center;
+  /*darker color: #03332E ;*/
+}
+
+#demo-descrip {
+font-family: Inconsolata, monospace;
+  font-size: 20px;
+  text-align: center;
+}
+
+.up-arrow {
+   font-family: Inconsolata, monospace;
+   text-decoration: none;
+   padding: 10px;
+   border: 3px solid #AD8C09;
+   color: #AD8C09;
+  margin-left: auto;
+  margin-right: auto;  
+}
+
+.up-arrow-small {
+   font-family: Inconsolata, monospace;
+   text-decoration: none;
+   padding: 3px;
+   border: 1px solid #AD8C09;
+   color: #AD8C09;
+  margin-left: auto;
+  margin-right: auto;  
+}
+
+.demo {
+    text-align: center;
+
+}
+
+/*Section 10*/
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+
+@keyframes move {
+  100% {
+    --i: 2rem;
+    offset-distance: calc((var(--char-index) * 1.2rem) + 12rem);
+  }
+
+
+
+
+
+}
