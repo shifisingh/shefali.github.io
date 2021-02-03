@@ -1,38 +1,161 @@
-<!doctype html/>
+<!doctype html>
 <html>
 	<head>
 		<title>Shefali Singh</title>
-		<link href="style/main.css" rel="stylesheet" type="text/css"/>
+		<link href="main.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="scripts/header.js"></script>
+		<link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting.css" />
+		<link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting-cells.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src="https://unpkg.com/splitting/dist/splitting.min.js"></script>
 	</head>
+<body>
+	<!--First section: Header-->
+	<div class="border">
+		<div class="container">
+			<h2 data-splitting>Hey I'm Shefali :)</h2>
+			<img id="lisas-creation" src="img/shefali.png" alt="shefali's bitmoji">
+			<a id = "firstbutton" href="#second"> I know your name but not your story</a>
+		</div>
+			<br/>
+            <br/>
+            <br/>
+            <br/>
+			<br/>
+            <br/>
+            <br/>
+            <br/>	
+	<!--Second section: Grid navigation-->
+	<div id="second">
+		<ul class="secondlist">
+			<li> Well what do you want to know about? </li>
+		</ul>
+		<div class="grid-container">
+			<div class="grid-item"><a class="grid-button" href=#third>my music</a></div>
+   			<div class="grid-item"><a class="grid-button" href=#fourth>villain origin story</a></div>
+    		<div class="grid-item"><a class="grid-button" href=#fifth>view on the current state of comedy</a></div>  
+    		<div class="grid-item"><a class="grid-button" href=#sixth>new years resolutions (even though time is a construct)</a></div>
+    		<div class="grid-item"><a class="grid-button" href=#seventh>how I feel about being perceived</a></div>
+    		<div class="grid-item"><a class="grid-button" href=#eighth>how the vaccine rollout should be happening</a></div>  
+    		<div class="grid-item"><a class="grid-button" href=#ninth>a cool thing I made with java swing</a></div>
+    		<div class="grid-item"><a class="grid-button" href=#tenth>how to get in touch!</a></div>
+		</div>
+	</div>
+	 		<br/>
+            <br/>
+            <br/>	
 
-	<body>
-		<h1 class = "nbg">Shefali Singh</h1>
-		<nav>
-			<ul class = "nbg">
-				<li class = "grow">Projects</li>
-				<li class = "grow"><a href="https://drive.google.com/file/d/1hJkeTRaZAmaPujdsYsjCCyZIsypKuN-t/view?usp=sharing" target="_blank"> Resume</a></li>
-				<li class = "grow"><a href="about.html"> About</a></li>
-			</ul>
-		</nav>
-		<section>
-			<ul class = "projects-list nbg">
-				<li class = "title animtitle">Interactive animation created from text inputs:</li>
+	<!--Third section: Music-->
+	<div id="third">
+			<p class="third-p1"> I started playing the flute in fourth grade. Throughout high school I took lessons and gained experience in group ensembles. Now it's become a fun escape from schoolwork. There's something really comforting about spending time working on something that requires so much focus and uses a different part of my brain than I would usually engage. </p>	
+			<p class="third-p2">A piece I've currently been learning:</p>
+			<iframe id="fluteplugin" align="center" src="https://open.spotify.com/embed/track/37XUuMhtfZSnJVLFEXBPUW" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+			<a class="up-arrow" href=#second>Back to top   <i class="fa fa-arrow-up" style="font-size:15px;color:#AD8C09"></i></a>
+ 			<br/>
+            <br/>
+            <br/>
+            <br/>
+	</div>
 
-				<li class = "demo"><video controls="" autoplay name="media" height=400 width=600>
-       <source src="https://cdn.kapwing.com/final_5ff90c185570a500b6dd910d_166310.mp4" type="video/mp4;codecs="avc1.42E01E, mp4a.40.2"">
-</video></li>
+	<!--Fourth section: Background-->
+	<div id="fourth">
+		<p class="fourth-p1"> On January 16th, 2001, a small Indian child was born. Her name? Shefali. Shefali Singh to be precise. </p>
+		<p class="fourth-p2"> Okay so. Sorry about that. My attempt at a subtle James Bond reference. Not so subtle anymore I suppose. But anyways. I'm from Cape Cod, Massachusetts, specifically Falmouth, even more specifically the village of Woods Hole. Summers growing up are some of the favorite memories I have to this day: sailing school, science school, and acting camp. </p>
+		<p class="fourth-p3"> As I grew older, my high school summers were directly related to how I had spent my childhood summers. I worked as a sailing instructor and acting camp counselor.</p>
+		<p class="fourth-p4"> Being a sailing instructor was pretty cool because not only did I teach the sailing school, I also taught private lessons. My favorite was teaching adults who had never sailed before because they were so eager and excited to get on the water, and that eagerness was infectious.  </p>
+		<p class="fourth-p2"> Being an acting camp counselor at a camp that I loved so much growing up was also a really special experience. It was fun to have an outlet to be creative and think of unique skits and concepts with the kids.<a class="up-arrow" href=#second>Back to top   <i class="fa fa-arrow-up" style="font-size:15px;color:#AD8C09"></i></a></p>
 
-       			<li class = "description" id="anim-descrip">Utilized Java, Java Swing Framework, principled use of MVC design pattern, visitor pattern, delegation. Code can be found <a href = "https://github.ccs.neu.edu/shefalisingh/assignment7-with-ec"> here </a></li>
-       			<li class = "title rothtitle">General use simulator based on Roth model for reinforcement learning:</li>
+		
+		<br/>
+		<br/>
+		<br/>
+	</div>
 
-       			<li class = "demo"><video controls="" autoplay name="media" height=400 width=600 border=3px solid rgb(229, 140, 73)>
-    <source src="https://cdn.kapwing.com/final_5ff907bb5e9d0e0049768a6f_434465.mp4" type="video/mp4;codecs="avc1.42E01E, mp4a.40.2"">
-</video></li>
-
-       			<li class = "description" id="anim-descrip">Utilized Python, Tkinter framework, libraries such as Pandas/NumPy, developed for both symmetric and asymmetric games. Code can be found <a href = "https://github.com/alexjordan98/Roth-Reinfocement-Project-Alex-and-Shefali/tree/main/Controler"> here </a></li>
-
-			</ul>
-		</section>
-	</body>
+	<!--Fifth section: Comedy-->
+	<div id="fifth">
+		<p class="fourth-p1"> Stand-up comedy is one of my favorite art forms. My favorite comedian of all time would be Dave Chapelle, although some of my other favorite specials have come from Bill Burr, Pete Davidson, Michael Che, Yvonne Orji, and Hasan Minhaj, Ricky Gervais, and Bo Burnham. </p>
+		<p class="fourth-p2"> I think stand-up in particular is in danger of falling victim to "cancel culture" by its very nature. Stand-up provides striking critques of the absuridities that exist in society but does so in a highly accessible way. Chapelle's most recent special for example jokes that the United States is so afraid of black people that they will ban guns only if every single black person buys a gun. He also calls the trans community "alphabet" people which taken out of context seems offensive. But while I was watching the special it struck as me actually one of the most progressive viewpoints I had seen on the matter. </p>
+		<p class="fourth-p1">I think with my generation especially there is this "pc" culture which was born out of a very real need to address the toxic climate surrounding women / people of color / members of the LGTBQ community. </p>
+		<p class="fourth-p2">However, taken to extremes, it can also seriously disrupt productive discourse and education to people who genuinely want to learn more. 	<a class="up-arrow" href=#second>Back to top   <i class="fa fa-arrow-up" style="font-size:15px;color:#AD8C09"></i></a>
+		</p>
+		
 	
+	</div>
+
+	<!--Sixth section: Resolutions-->
+	<div id="sixth">
+		<p class="seventh-p1">What better time for self improvement than the the abritrary construct of the New Year? Haha. :) But without further ado. Here are some of my goals for 2021: </p>
+		<img class="newyrscanva" height=500 width=80% src="img/newyrs.png" alt="new years resolutions"> <a class="up-arrow" href=#second>Back to top   <i class="fa fa-arrow-up" style="font-size:15px;color:#AD8C09"></i></a>
+<br/>
+		<br/>
+			<br/>
+		<br/>
+
+	</div>
+
+	<!--Seventh section: Philosophy-->
+	<div id="seventh">
+		<br/>
+		<br/>
+			<br/>
+		<br/>
+		<p class="seventh-p1"> I am part philosophy major which basically means I spend a lot of time just... thinking. Recently I've been thinking a lot about perception. Here are some questions I've been pondering (I debated using whether or not I should use the word pondering but here I am)</p>
+		<p id="seventh-q1">Do we exist outside of other’s perceptions of ourselves?</p>
+		<p class="seventh-q2">Can one be perceived if one does not occupy a physical form? (if the answer is yes because of God(s) then my follow-up question is whether or not we perceive God(s), i.e. is/are God(s) a real presence that we perceive or is it simply a collection of texts that we have internalized to stand in place of perception)</p>
+		<p id="seventh-q3">Does any part of the material world exist?  (inspired by George Berkeley's "master argument") </p>
+		<br/>
+		<br/>
+			<br/>
+		<br/>
+		<a class="up-arrow" href=#second>Back to top  <i class="fa fa-arrow-up" style="font-size:15px;color:#AD8C09"></i></a>
+	</div>
+
+	<!--Eighth section: Research-->
+	<div id="eighth"> <p class="seventh-q2" style="font-size: 150px"> My research... coming soon. </p>
+		<a class="up-arrow" href=#second>Back to top  <i class="fa fa-arrow-up" style="font-size:15px;color:#AD8C09"></i></a>
+			<br/>
+		<br/>
+		<br/>
+			<br/>
+		<br/>
+		<br/>
+			<br/>
+		<br/>
+		<br/>
+	</div>
+
+	<!--Ninth section: GUI project-->
+	<div id="ninth">
+		<div class = "demo"><video controls="" autoplay name="media" height=400 width=600 border=3px solid rgb(229, 140, 73)>
+    	<source src="https://cdn.kapwing.com/final_5ff911e953a691005fedee8c_171996.mp4" type="video/mp4;codecs="avc1.42E01E, mp4a.40.2""></video>
+		</div>	
+		<p id="demo-descrip"> Various animations can be built up through user text input. I made this for my Object Oriented Design class with my friend Lisa. We utilized Java, the Java Swing Framework, principled use of MVC design pattern, visitor pattern, and delegation.</p>
+		<a class="up-arrow" href=#second>Back to top   <i class="fa fa-arrow-up" style="font-size:15px;color:#AD8C09"></i></a>
+		<br/>
+		<br/>
+			<br/>
+		<br/>
+		<br/>
+		<br/>
+			<br/>
+		<br/>
+		<br/>
+
+			<br/>
+		<br/>
+		<br/>
+	</div>	
+
+	<div id="tenth">
+		<p class="fourth-p1"> Currently I am interested in lots of things. Machine learning and neural networks for one, so I am taking a Linear Algebra course to better understand the subject.</p>
+		<p class="fourth-p2"> I'm also interested in the law as it applies to digital technologies: privacy, facial surveillance/facial recognition fair use, and am currently taking a class about such matters as well as incorporating the technological laws that are constantly being debated and passed into my daily news feed. Here's a <a href="https://drive.google.com/file/d/1p9fhOLEMHBTXN8j6mjXL6fpWC5ie2c5Q/view?usp=sharing" class="fourth-p2" target="_blank" >quick debriefing</a> I recently wrote up on policing and facial recognition techonologies.</p> 
+		<p class="fourth-p1"> My <a class="fourth-p1" href="https://drive.google.com/file/d/1hJkeTRaZAmaPujdsYsjCCyZIsypKuN-t/view?usp=sharing" target="_blank"> resume</a> with some more specific contact info</p>
+		<p class="fourth-p1"> <a class="fourth-p1" href="mailto: singh.shef@northeastern.edu">Email me!</a> Or connect with me on <a class="fourth-p1" href="www.linkedin.com/in/shefali---singh">LinkedIn</p>
+		<a class="up-arrow" href=#second>Back to top   <i class="fa fa-arrow-up" style="font-size:15px;color:#AD8C09"></i></a>
+	</div>
+
+</div> 
+<script> Splitting(); </script>
+</body>
 </html>
